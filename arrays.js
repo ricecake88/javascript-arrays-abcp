@@ -9,3 +9,5 @@ function addElementToBeginningOfArray(myArray, element) {
   var newArray = [element, ...myArray];
   return newArray;
 }
+
+function addElementToEndOfArray(myArray, element)
