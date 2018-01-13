@@ -19,3 +19,7 @@ function addElementToEndOfArray(myArray, element) {
   var newArray = [...myArray, element];
   return newArray;
 }
+
+function accessElementInArray(myArray, index) {
+  return myArray[index];
+}
